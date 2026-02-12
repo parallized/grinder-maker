@@ -37,6 +37,9 @@ jobs:
         with:
           workspaces: src-tauri -> target
 
+      - name: Generate icons
+        run: pnpm tauri icon src-tauri/icons/icon-512.png --output src-tauri/icons
+
       - name: Build (Windows)
         run: pnpm tauri build
 
@@ -47,4 +50,3 @@ jobs:
           if-no-files-found: error
           path: |
             src-tauri/target/release/bundle/**/*
-
