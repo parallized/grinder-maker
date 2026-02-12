@@ -1,0 +1,20 @@
+{
+  "maps": [
+    {
+      "key": "kalimdor",
+      "src": "/kalimdor.png",
+      "width": 7000,
+      "height": 12000,
+      "tileSize": 512,
+      "maxZoom": 5
+    },
+    {
+      "key": "kingdoms",
+      "src": "/kingdoms.png",
+      "width": 7000,
+      "height": 12000,
+      "tileSize": 512,
+      "maxZoom": 5
+    }
+  ]
+}
